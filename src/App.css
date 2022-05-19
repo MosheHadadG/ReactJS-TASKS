@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/** 16.05.22 */
+/* Card */
+.Card {
+  width: 500px;
+  height: 700px;
+}
+
+.CardImg {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.DescCard {
+  padding: 0 10px;
+}
+
+.LinksCard {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+
+}
+
+.LinksCard a {
+  text-decoration: none;
+  color: orange;
+}
+
+/* Hide and seek */
+.OuterBox {
+  width: 250px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.BoxShow {
+  width: 80%;
+  height: 60%;
+  background-color: yellow;
+}
+
+/* Increment and decrement  */
+.IncrementDecrement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+}
+
+
+/** 17.05.22 */
+
+/* Box Animation */
+.BoxesAnimation {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.BoxAnimation {
+  background-color: purple;
+  margin-bottom: 1%;
+  animation: BoxAnimation 1s forwards;
+}
+
+@keyframes BoxAnimation {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+/* ChangingBox */
+.ChangingBox {
+  width: 300px;
+  height: 300px;
+}
+
+/* Spinner */
+.BoxSpinner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Spinner-4 {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Spinner-4-Part {
+  width: 25px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(0, 174, 255);
+  animation-name: Spinner-4;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+#SP-4-B {
+  animation-delay: 0.5s;
+}
+
+#SP-4-C {
+  animation-delay: 1s;
+}
+
+@keyframes Spinner-4 {
+  0% {
+      transform: inherit;
+  }
+  33% {
+      transform: translateY(-15px);
+  }
+  66% {
+      transform: inherit;
+  }
+}
+
