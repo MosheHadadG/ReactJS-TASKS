@@ -18,7 +18,13 @@ import './App.css';
 // import SpinnerApp from './components/17.05.22/spinner/SpinnerApp';
 //* 18.05.22
 // import CustomButton from './components/18.05.22/child_to_father_colors/CustomButton';
-import CheckboxEx from './components/18.05.22/checkbox/CheckboxEx';
+// import CheckboxEx from './components/18.05.22/checkbox/CheckboxEx';
+//* 22.05.22
+// import ChuckNorris from './components/22.05.22/chuck-norris/ChuckNorris';
+// import DataMassaging from './components/22.05.22/Data-Massaging/DataMassaging';
+//* 23.05.22
+// import Focus from './components/23.05.22/focus/Focus';
+import Copy from './components/23.05.22/copy/Copy';
 
 function App() {
   return (
@@ -41,7 +47,13 @@ function App() {
       {/* <SpinnerApp /> */}
       {/* //* 18.05.22 */}
       {/* <CustomButton /> */}
-      <CheckboxEx />
+      {/* <CheckboxEx /> */}
+      {/* //* 22.05.22 */}
+      {/* <ChuckNorris /> */}
+      {/* <DataMassaging /> */}
+      {/*//* 23.05.22  */}
+      {/* <Focus /> */}
+      <Copy/>
     </div>
 
   );

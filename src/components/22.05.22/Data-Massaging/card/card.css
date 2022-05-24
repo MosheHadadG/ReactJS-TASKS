@@ -1,0 +1,17 @@
+.Card {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.DescCard {
+  padding: 0 10px;
+}
+
+.LinksCard {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+
+}
