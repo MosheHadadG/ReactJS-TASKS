@@ -24,11 +24,13 @@ import './App.css';
 // import DataMassaging from './components/22.05.22/Data-Massaging/DataMassaging';
 //* 23.05.22
 // import Focus from './components/23.05.22/focus/Focus';
-import Copy from './components/23.05.22/copy/Copy';
+// import Copy from './components/23.05.22/copy/Copy';
+//* 24.05.22
+import ECommerce from './components/24.05.22/e-commerce/e-commerce';
 
 function App() {
   return (
-    <div className='App'>
+    <div>
       {/* //* 15.05.22 */}
       {/* <HelloWorld />  */}
       {/* <Boxes /> */}
@@ -53,7 +55,9 @@ function App() {
       {/* <DataMassaging /> */}
       {/*//* 23.05.22  */}
       {/* <Focus /> */}
-      <Copy/>
+      {/* <Copy/> */}
+      {/* //* 24.05.22 */}
+      <ECommerce />
     </div>
 
   );
