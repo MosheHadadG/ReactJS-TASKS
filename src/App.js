@@ -26,7 +26,9 @@ import './App.css';
 // import Focus from './components/23.05.22/focus/Focus';
 // import Copy from './components/23.05.22/copy/Copy';
 //* 24.05.22
-import ECommerce from './components/24.05.22/e-commerce/e-commerce';
+// import ECommerce from './components/24.05.22/e-commerce/e-commerce';
+//* 25.05.22
+import Todo_Index from './components/25.05.22/Todo-App/Todo_Index';
 
 function App() {
   return (
@@ -57,7 +59,10 @@ function App() {
       {/* <Focus /> */}
       {/* <Copy/> */}
       {/* //* 24.05.22 */}
-      <ECommerce />
+      {/* <ECommerce /> */}
+      {/* //* 25.05.22 */}
+      <Todo_Index />
+
     </div>
 
   );
