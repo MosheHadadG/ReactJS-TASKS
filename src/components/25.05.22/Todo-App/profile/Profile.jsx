@@ -20,7 +20,7 @@ class ProfilePage extends Component {
       <div className="profile-main">
         <div className="profile-container">
           <div className="profile-imgBox">
-            <h3> image</h3>
+            <img src={require('../profile/images/profile.jpg')} alt="" />
           </div>
           <div className="profile-title">
             <h1>{profile}</h1>

@@ -1,3 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+#cff{ font-family: 'Open Sans', sans-serif; }
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
 body {
   background-color: #3b5998;
   width: 100%;
@@ -47,7 +53,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border: 2px solid black;
   margin-bottom: 5px;
   border-radius: 10px;
   padding: 10px;
