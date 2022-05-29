@@ -31,7 +31,8 @@ import './App.css';
 // import Todo_Index from './components/25.05.22/Todo-App/Todo_Index';
 //* 29.05.22
 // import AppText from './components/29.05.22/text/AppText';
-import TodoApp from './components/29.05.22/simpleTodo/TodoApp';
+// import TodoApp from './components/29.05.22/simpleTodo/TodoApp';
+import TimeApp from './components/29.05.22/whatTheTime/TimeApp';
 
 function App() {
   return (
@@ -67,7 +68,8 @@ function App() {
       {/* <Todo_Index /> */}
       {/* //* 29.05.22 */}
       {/* <AppText /> */}
-      <TodoApp />
+      {/* <TodoApp /> */}
+      <TimeApp />
 
 
     </div>

@@ -1,0 +1,19 @@
+.inputs-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+label {
+  font-size: 2rem;
+}
+
+.input-time input {
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  font-size: 1.2rem;
+
+}
