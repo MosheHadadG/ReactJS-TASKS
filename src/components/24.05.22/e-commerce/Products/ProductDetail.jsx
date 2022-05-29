@@ -21,6 +21,7 @@ class ProductDetail extends Component {
 
   componentDidMount() {
     this.findProduct();
+    console.log(this.props)
   }
 
   render(){

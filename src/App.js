@@ -28,7 +28,10 @@ import './App.css';
 //* 24.05.22
 // import ECommerce from './components/24.05.22/e-commerce/e-commerce';
 //* 25.05.22
-import Todo_Index from './components/25.05.22/Todo-App/Todo_Index';
+// import Todo_Index from './components/25.05.22/Todo-App/Todo_Index';
+//* 29.05.22
+// import AppText from './components/29.05.22/text/AppText';
+import TodoApp from './components/29.05.22/simpleTodo/TodoApp';
 
 function App() {
   return (
@@ -61,7 +64,11 @@ function App() {
       {/* //* 24.05.22 */}
       {/* <ECommerce /> */}
       {/* //* 25.05.22 */}
-      <Todo_Index />
+      {/* <Todo_Index /> */}
+      {/* //* 29.05.22 */}
+      {/* <AppText /> */}
+      <TodoApp />
+
 
     </div>
 
