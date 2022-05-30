@@ -7,7 +7,12 @@ const Text = ({textString, maxLength}) => {
     setHideText(hideText ? false : true);
   }
 
+  login: false
   return(
+
+
+    
+
     <div style={{width: '500px'}}>
       {hideText ? textString.slice(0, maxLength) : textString}
       <span

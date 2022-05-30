@@ -32,7 +32,11 @@ import './App.css';
 //* 29.05.22
 // import AppText from './components/29.05.22/text/AppText';
 // import TodoApp from './components/29.05.22/simpleTodo/TodoApp';
-import TimeApp from './components/29.05.22/whatTheTime/TimeApp';
+// import TimeApp from './components/29.05.22/whatsTheTime/TimeApp';
+//* 30.05.22 
+// import SimpleFetch from './components/30.05.22/simple-fetch/SimpleFetch';
+import CountriesOfTheWorld from './components/30.05.22/CountriesOfTheWorld/CountriesOfTheWorld';
+
 
 function App() {
   return (
@@ -69,7 +73,10 @@ function App() {
       {/* //* 29.05.22 */}
       {/* <AppText /> */}
       {/* <TodoApp /> */}
-      <TimeApp />
+      {/* <TimeApp /> */}
+      {/* //* 30.05.22 */}
+      {/* <SimpleFetch /> */}
+      <CountriesOfTheWorld/>
 
 
     </div>
