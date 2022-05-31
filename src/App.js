@@ -35,7 +35,12 @@ import './App.css';
 // import TimeApp from './components/29.05.22/whatsTheTime/TimeApp';
 //* 30.05.22 
 // import SimpleFetch from './components/30.05.22/simple-fetch/SimpleFetch';
-import CountriesOfTheWorld from './components/30.05.22/CountriesOfTheWorld/CountriesOfTheWorld';
+// import CountriesOfTheWorld from './components/30.05.22/CountriesOfTheWorld/CountriesOfTheWorld';
+//* 31.05.22
+// import CancelRequest from './components/31.05.22/cancelRequest/CancelRequest';
+// import SimpleEdit from './components/31.05.22/SimpleEdit/SimpleEdit';
+// import Video from './components/31.05.22/Video/Video';
+import ImageToggle from './components/31.05.22/ImageToggle/ImageToggle';
 
 
 function App() {
@@ -76,7 +81,13 @@ function App() {
       {/* <TimeApp /> */}
       {/* //* 30.05.22 */}
       {/* <SimpleFetch /> */}
-      <CountriesOfTheWorld/>
+      {/* <CountriesOfTheWorld/> */}
+      {/* //* 31.05.22 */}
+      {/* <CancelRequest /> */}
+      {/* <SimpleEdit /> */}
+      {/* <Video /> */}
+      <ImageToggle />
+
 
 
     </div>
